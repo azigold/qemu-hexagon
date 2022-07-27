@@ -572,7 +572,7 @@ ZERO_ONE                 0|1
 
 %%
 
-YYSTYPE yylval;
+extern YYSTYPE yylval;
 
 void yyerror(char *s)               
 {                                   
